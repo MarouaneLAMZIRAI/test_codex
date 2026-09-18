@@ -1,0 +1,9 @@
+claim_or_output,public_file,evidence_class,what_it_reproduces,what_it_does_not_reproduce
+PV scenario DC summary,scenario_summaries.csv,A,Archived scenario-level PV summary,Original ANSYS/PV solver execution
+PV cell-voltage reconstruction,pv_cell_voltage_pairs.csv; reproduce_screening.py,B,OLS reconstruction from 288 archived cell pairs,Original source implementation or parameter provenance
+PV 24-h constant-power H2 mapping,reproduce_screening.py,B,Arithmetic mapping at 45/50/55/60 kWh kg-1,Electrolyzer dynamics or annual production
+CSP scenario summary,scenario_summaries.csv,A,Archived CSP heat-transfer summary,Optical ray tracing or validated receiver performance
+CSP input parameters,scenario_parameters.csv,A,Archived parameter table,Commercial fluid identity or complete Fluent setup
+Geothermal scenario summary,scenario_summaries.csv,A,Archived scenario-level summary,Closed ORC/plant model
+WHR scenario summary,scenario_summaries.csv,A,Archived scenario-level summary,Host-process counterfactual or validated plant output
+WHR-S5 sensitivity,reproduce_screening.py,B,56.3 percent arithmetic sensitivity,Technology-performance gain
